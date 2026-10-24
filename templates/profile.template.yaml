@@ -1,0 +1,39 @@
+# Math Mentor 学习者档案
+# 位置：~/.claude/math-mentor/profile.yaml
+# 留空的字段在用到时再问
+
+learner:
+  name: ""                    # 怎么称呼（可空）
+  discipline: ""              # 如：社会学
+  stage: ""                   # 如：硕士在读，准备申博
+  language: "zh"              # 讲解语言；术语附英文
+
+research:
+  interests: []               # 如：["政治消费主义", "数字劳动"]
+  target_fields: []           # 想进入的方向，如：["BCI", "计算社会科学"]
+  current_projects: []        # 正在做的课题（可空）
+
+methods:
+  used: []                    # 如：["OLS/Logit", "多层模型", "DID"]
+  software:                   # 按熟练度排序
+    - name: ""                # Stata / R / Python / SPSS / MATLAB
+      level: ""               # 入门 / 熟练 / 精通
+  datasets: []                # 如：["CGSS", "CFPS"]
+
+math_background:              # 0 没学过 / 1 学过忘了 / 2 能看懂推导 / 3 能自己推导
+  calculus: null
+  linear_algebra: null
+  probability: null
+  mathematical_statistics: null
+  advanced: []                # 如：["随机过程(1)", "最优化(0)"]
+  verified: []                # 小题验证记录，如："2026-10-24 手算2x2特征值 正确"
+
+learning:
+  preferred_entry: ""         # intuition / code / proof / example
+  hours_per_week: null
+  deadline: ""                # 如："2027-12 申请季"
+  notes_dir: ""               # 学习笔记副本保存位置，如 Obsidian 文件夹
+
+meta:
+  created: ""
+  updated: ""
