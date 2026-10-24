@@ -178,7 +178,7 @@ PBL 项目用你的兴趣领域和常用数据集，不是泛泛的"教科书习
 
 ```bash
 cd ~/.claude/skills
-git clone <本仓库地址> math-mentor
+git clone https://github.com/jojo-leo/math-mentor.git math-mentor
 ```
 
 ## 开始使用
